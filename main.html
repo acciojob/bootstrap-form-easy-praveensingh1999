@@ -9,18 +9,18 @@
 <body>
 	<h2>Internship Form</h2>
 	<form>
-		<label for="first-name-input">First Name </label><br>
-		<input type="text" id="first-name-input" class="form-control"  name="fname" required><br>
+		<label for="first-name-input" class="invalid-feedback">First Name </label><br>
+		<input type="text" id="first-name-input" class="form-label"  name="fname" required><br>
 
-		<label for="last-name-input">Last Name </label><br>
+		<label for="last-name-input" class="invalid-feedback">Last Name </label><br>
 		<input type="text" id="last-name-input" class="form-control" name="lname"required ><br>
 		
-		<label for="email-input">Email Address </label><br>
-		<input type="email" id="email-input" name="email" required><br>
+		<label for="email-input" class="invalid-feedback">Email Address </label><br>
+		<input type="email" id="email-input" class="form-control" name="email" required><br>
 
-		<label for="college-input">College</label><br>
+		<label for="college-input" class="invalid-feedback">College</label><br>
 		<input type="text" id="college-input" name="college" required><br>
-<label for="grad-year-select">Graduation Year</label><br>
+<label for="grad-year-select" class="invalid-feedback">Graduation Year</label><br>
 
 <select name="gradution" id="grad-year-select" required>
 	<option value="choose">Choose...</option>
@@ -30,7 +30,7 @@
   <option value="2023">2023</option>
 </select><br>
 
-		<label for="roll-no-input">Roll No. </label><br>
+		<label for="roll-no-input" class="invalid-feedback">Roll No. </label><br>
 		<input type="text" id="roll-no-input" name="roll" required><br>
 
 		<input type="checkbox" id="conditions-checkbox" name="agree" value="agree" required>
