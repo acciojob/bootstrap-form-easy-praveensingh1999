@@ -1,2 +1,11 @@
 
 /* Your CSS Code here. */
+.invalid-feedback {
+    color: red;
+    display: none; /* Hide by default */
+}
+
+input:invalid + .invalid-feedback,
+select:invalid + .invalid-feedback {
+    display: block; /* Show when invalid */
+}
