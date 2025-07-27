@@ -7,6 +7,36 @@
 </head>
 
 <body>
+	<h2>Internship Form</h2>
+	<form>
+		<label for="fname">First Name </label><br>
+		<input type="text" id="first-name-input" name="fname" required><br>
+
+		<label for="lname">Last Name </label><br>
+		<input type="text" id="last-name-input" name="lname"required ><br>
+		
+		<label for="email">Email Address </label><br>
+		<input type="email" id="email-input" name="email" required><br>
+
+		<label for="college">College</label><br>
+		<input type="text" id="college-input" name="college" required><br>
+<label for="gradution">Graduation Year</label><br>
+
+<select name="gradution" id="gradution" required>
+	<option value="choose">Choose...</option>
+  <option value="2020">2020</option>
+  <option value="2021">2021</option>
+  <option value="2022">2022</option>
+  <option value="2023">2023</option>
+</select><br>
+
+		<label for="roll">Roll No. </label><br>
+		<input type="number" id="roll-no-input" name="roll" required><br>
+
+		<input type="checkbox" id="conditions-checkbox" name="agree" value="agree" required>
+  <label for="agree"> Agree to terms and conditions You must agree before submitting</label><br>
+<button>Submit form</button>
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
